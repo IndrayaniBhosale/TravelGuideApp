@@ -81,9 +81,10 @@ cd TravelGuideApp
 * Implement dark mode toggle.
 
 ## Author
-* Indrayani Vijaysinh Bhosale
-* Janya Jaiswal
-* Shrutik Kupekar
+* Indrayani Vijaysinh Bhosale | CWID - 842614851 | indrayanibhosale75@csu.fullerton.edu
+* Janya Jaiswal | CWID - 878062934 | janyaj@csu.fullerton.edu
+* Shrutik Kupekar | CWID - 884426727 | shrutikkupekar@csu.fullerton.edu
+* Suyash Jadhav | CWID - 880760830 | suyash1jadhav@csu.fullerton.edu
 
 
 
