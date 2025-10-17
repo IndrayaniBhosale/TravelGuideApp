@@ -51,7 +51,7 @@ cd TravelGuideApp
 ### 3. Build & Run
 * Click ▶ Run at the top toolbar.
 * Choose an emulator (e.g., Pixel 5 API 33).
-* Wait for the app to launch — you’ll see destination cards appear.
+* Wait for the app to launch you’ll see destination cards appear.
 
 
 ---
