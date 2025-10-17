@@ -18,12 +18,6 @@ Built using **Kotlin**, **MVVM architecture**, and **Android Jetpack Compose** f
 
 ---
 
-## Project Structure
-TravelGuideApp/ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── java/com/example/travelguideapp/ │ │ │ │ ├── data/ # Destination data classes │ │ │ │ ├── ui/theme/ # Theme colors & typography │ │ │ │ ├── ui/screens/ # Home, Details, Favorites screens │ │ │ │ └── viewmodel/ # TravelViewModel for app state │ │ │ ├── res/ # Drawables, mipmap icons, XML files │ │ │ └── AndroidManifest.xml │ ├── build.gradle.kts # Module-level Gradle │ └── ... ├── build.gradle.kts # Project-level Gradle └── settings.gradle.kts
-
-
----
-
 ## Tech Stack
 
 | Component | Technology |
@@ -41,7 +35,9 @@ TravelGuideApp/ ├── app/ │ ├── src/ │ │ ├── main/�
 ## Getting Started
 
 ### 1. Clone the Repository
+
 git clone https://github.com/IndrayanibBhosale/TravelGuideApp.git
+
 cd TravelGuideApp
 
 ---
@@ -62,7 +58,8 @@ cd TravelGuideApp
 
 
 ## Screenshots
-Home	Favorites
+| ![Home](screenshots/Home.png) | ![Favorites](screenshots/Favorites.png) |
+
 
 
 ---
