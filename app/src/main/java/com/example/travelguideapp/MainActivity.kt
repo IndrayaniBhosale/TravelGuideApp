@@ -19,11 +19,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            com.example.travelguideapp.ui.theme.TravelGuideTheme {
-                TravelGuideApp()
-            }
+            TravelGuideApp()
         }
-
     }
 }
 
@@ -38,14 +35,14 @@ fun TravelGuideApp() {
             startDestination = "home"
         ) {
             composable("home") {
-                HomeScreen(navController = navController, viewModel = viewModel)
+                HomeScreen(navController, viewModel)
             }
             composable("favorites") {
-                FavoritesScreen(navController = navController, viewModel = viewModel)
+                FavoritesScreen(navController, viewModel)
             }
             composable("details/{id}") { backStackEntry ->
-                val id = backStackEntry.arguments?.getString("id")?.toIntOrNull() ?: return@composable
-                DetailsScreen(navController = navController, viewModel = viewModel, id = id)
+                val id = backStackEntry.arguments?.getString("id")?.toInt() ?: 0
+                DetailsScreen(navController, viewModel, id)
             }
         }
     }
