@@ -57,8 +57,16 @@ cd TravelGuideApp
 ---
 
 
-## Screenshots
-| ![Home](screenshots/home.png) | ![Favorites](screenshots/favorites.png) |
+## 📸 Screenshots
+
+<div align="center">
+
+| Home | Favorites |
+|------|------------|
+| <img src="screenshots/Home.png" width="250"> | <img src="screenshots/Favorites.png" width="250"> |
+
+</div>
+
 
 
 
