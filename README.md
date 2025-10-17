@@ -58,7 +58,7 @@ cd TravelGuideApp
 
 
 ## Screenshots
-| ![Home](screenshots/Home.png) | ![Favorites](screenshots/Favorites.png) |
+| ![Home](screenshots/home.png) | ![Favorites](screenshots/favorites.png) |
 
 
 
